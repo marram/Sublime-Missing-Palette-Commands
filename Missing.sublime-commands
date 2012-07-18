@@ -9,6 +9,9 @@
 
     // Edit Menu
     { "caption": "Code Folding: Fold All", "command": "fold_by_level", "args": {"level": 1} },
+    { "caption": "Code Folding: Fold All", "command": "fold_by_level", "args": {"level": 1} },
+    { "caption": "Remove Duplicate Lines", "command": "permute_lines", "args": {"operation": "unique"}},
+    { "caption": "Cleanup Python Imports", "command": "cleanup_imports"},
 
     // Find Menu
     { "caption": "Find", "command": "show_panel", "args": {"panel": "find"} },
